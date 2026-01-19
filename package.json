@@ -1,8 +1,7 @@
 {
   "name": "liliana-extensions",
-  "repositoryName": "Liliana Extensions (0.9)",
-  "description": "Paperback extensions for websites which use the generic Liliana theme. Maintained by Inkdex.",
   "private": true,
+  "description": "Paperback extensions for websites which use the generic Liliana theme. Maintained by Inkdex.",
   "type": "module",
   "scripts": {
     "lint": "oxlint --type-aware --fix",
@@ -20,10 +19,12 @@
   "devDependencies": {
     "@paperback/toolchain": "^1.0.0-alpha.57",
     "@paperback/types": "^1.0.0-alpha.57",
+    "cheerio": "^1.1.2",
     "husky": "^9.1.7",
     "oxfmt": "^0.23.0",
     "oxlint": "^1.38.0",
     "oxlint-tsgolint": "^0.11.0",
     "typescript": "^5.9.3"
-  }
+  },
+  "repositoryName": "Liliana Extensions (0.9)"
 }
